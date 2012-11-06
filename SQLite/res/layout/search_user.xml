@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingLeft="4dp"
+            android:paddingTop="5dp"
+            android:src="@drawable/icon2" >
+        </ImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|left"
+            android:paddingLeft="9dp"
+            android:paddingTop="3dp"
+            android:text="@string/menu_search_user"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:typeface="sans" >
+        </TextView>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/msg_selected_field" />
+
+    <RadioGroup
+        android:id="@+id/rgOptions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RadioButton
+            android:id="@+id/rb_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/name" >
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/rb_profission"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/profession" >
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/rb_age"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/age" >
+        </RadioButton>
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="bottom"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/msg_enter_valeu" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="fill_parent"
+                android:layout_height="47dip"
+                android:layout_weight="0.15"
+                android:maxLines="1"
+                android:textColor="#000" >
+            </EditText>
+
+            <ImageButton
+                android:id="@+id/research"
+                android:layout_width="53dp"
+                android:layout_height="47dip"
+                android:src="@android:drawable/ic_search_category_default" >
+            </ImageButton>
+            
+        </LinearLayout>
+        
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">SQLite</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">SQLite</string>
+    
+    <string name="name">Nome</string>
+    <string name="profession">Profissão</string>
+    <string name="age">Idade</string>
+    
+    <string name="menu_cadastre_user">Cadastro de Usuários</string>
+    <string name="menu_list_user">Lista de Usuários</string>
+    <string name="menu_search_user">Pesquisa de Usuários</string>
+    <string name="menu_clean_db">Limpar Banco de Dados</string>
+	<string name="menu_exit">Sair</string>
+	
+	<string name="bn_cadastre">Cadastro</string>
+
+	<string name="bn_confirm">Confirmar</string>
+	<string name="bn_cancel">Cancelar</string>
+	<string name="msg_exit">Deseja sair do aplicativo?</string>
+	
+	<string name="msg_no_registration">Nenhum usuário foi salvo</string>
+	<string name="msg_clean_db">Deseja limpar o banco de dados?</string>
+	<string name="msg_fill_fields">Preencha todos os campos</string>
+	<string name="msg_selected_field">Selecione um campo para a pesquisa</string>
+	<string name="msg_enter_valeu">Digite o valor para a pesquisa</string>
+	<string name="msg_no_found_user">Nenhum usuário encontrado</string>
+	<string name="msg_results">Resultado</string>
+	
+</resources>
